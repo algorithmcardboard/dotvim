@@ -1,4 +1,5 @@
 execute pathogen#infect()
+call pathogen#helptags()
 syntax on
 syntax enable
 set background=light
