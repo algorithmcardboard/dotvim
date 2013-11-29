@@ -21,3 +21,5 @@ set backspace=indent,eol,start
 set hlsearch
 set incsearch
 set ruler
+
+:let mapleader = ","
