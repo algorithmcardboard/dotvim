@@ -1,6 +1,14 @@
 dotvim
 ======
 
+List of plugins used:
+
+    CommandT
+    Syntastic
+    vim-colors-solarized
+    vim-rails
+    vim-rake
+
 Installation:
 
     git clone git@github.com:rajegannathan/dotvim.git ~/.vim
