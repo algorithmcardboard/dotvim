@@ -1,6 +1,10 @@
 dotvim
 ======
 
+Adding new plugins:
+
+    git submodule add git@github.com:Shutnik/jshint2.vim.git ./bundle/jshint2
+
 Installation:
 
     git clone git@github.com:rajegannathan/dotvim.git ~/.vim
