@@ -3,8 +3,6 @@ call pathogen#helptags()
 syntax on
 syntax enable
 set background=light
-colorscheme solarized
-let g:solarized_termcolors=16
 filetype plugin indent on
 set nocompatible      " We're running Vim, not Vi!
 nnoremap <F2> :set invpaste paste?<CR>
@@ -23,3 +21,8 @@ set incsearch
 set ruler
 
 :let mapleader = ","
+nmap <leader>st :SyntasticToggle<cr>
+
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+let g:syntastic_javascript_checkers = ['jshint']
