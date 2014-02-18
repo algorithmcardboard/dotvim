@@ -2,7 +2,8 @@ execute pathogen#infect()
 call pathogen#helptags()
 syntax on
 syntax enable
-set background=light
+set background=dark
+colorscheme solarized
 filetype plugin indent on
 set nocompatible      " We're running Vim, not Vi!
 nnoremap <F2> :set invpaste paste?<CR>
@@ -26,3 +27,5 @@ nmap <leader>st :SyntasticToggle<cr>
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_javascript_checkers = ['jshint']
+
+let g:CommandTWildIgnore=&wildignore . ",**/bower_components/*,**/node_modules/*,**/dist/*"

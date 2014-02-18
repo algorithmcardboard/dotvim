@@ -1,6 +1,6 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/anirudhan/rails_projects/tih/app/views/layouts'
-let g:netrw_dirhist_2='/home/anirudhan/rails_projects/tih-scrapper/config/deploy'
-let g:netrw_dirhist_3='/home/anirudhan/rails_projects/trade-blotter/tmp'
-let g:netrw_dirhist_4='/home/anirudhan/canveraws/trunk/app'
+let g:netrw_dirhist_1='/home/anirudhan'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_3='/'
+let g:netrw_dirhist_4='/home/anirudhan/canveraws/pixeebox-web/app/viewPersonalShare'
