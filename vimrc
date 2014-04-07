@@ -31,3 +31,5 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:CommandTWildIgnore=&wildignore . ",**/bower_components/*,**/node_modules/*,**/dist/*"
 
 runtime macros/matchit.vim
+
+nmap <leader>C :%s///gn
