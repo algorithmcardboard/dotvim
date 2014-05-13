@@ -12,9 +12,9 @@ set showmode
 syntax enable
 se t_Co=16
 set smartindent
+set expandtab
 set tabstop=2
 set shiftwidth=2
-set expandtab
 set number
 set backspace=indent,eol,start
 set hlsearch
@@ -32,4 +32,5 @@ let g:CommandTWildIgnore=&wildignore . ",**/bower_components/*,**/node_modules/*
 
 runtime macros/matchit.vim
 
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 nmap <leader>C :%s///gn
