@@ -23,6 +23,7 @@ set ruler
 
 :let mapleader = ","
 nmap <leader>st :SyntasticToggle<cr>
+noremap <F5> :CommandTFlush<CR>
 
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
