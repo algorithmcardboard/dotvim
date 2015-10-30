@@ -3,6 +3,7 @@ call pathogen#helptags()
 syntax on
 syntax enable
 set background=dark
+colorscheme solarized
 filetype plugin indent on
 set nocompatible      " We're running Vim, not Vi!
 nnoremap <F2> :set invpaste paste?<CR>
